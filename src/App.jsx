@@ -1,10 +1,15 @@
 import React from 'react';
+import ColorfulMessage from './components/ColorfulMessage';
 
 const App = () => {
   return (
     <React.Fragment>
-      <h1>こんにちは</h1>
-      <p>太郎です</p>
+      <ColorfulMessage color="blue">
+        お元気ですか?
+      </ColorfulMessage>
+      <ColorfulMessage color="pink">
+        お元気やで
+      </ColorfulMessage>
     </React.Fragment>
   );
 }
